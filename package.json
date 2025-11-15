@@ -1,0 +1,25 @@
+{
+  "name": "discord-token-autojoiner",
+  "version": "1.0.0",
+  "description": "A Discord token auto-join bot with admin-only commands.",
+  "main": "build/index.js",
+  "type": "commonjs",
+  "scripts": {
+    "dev": "ts-node src/index.ts",
+    "build": "tsc",
+    "start": "node build/index.js",
+    "build:run": "npm run build && npm run start"
+  },
+  "dependencies": {
+    "discord.js": "^14.18.0",
+    "discord.js-selfbot-v13": "^3.5.1",
+    "dotenv": "^16.4.7",
+    "ts-node": "^10.9.2"
+  },
+  "devDependencies": {
+    "typescript": "^5.4.0"
+  },
+  "keywords": [],
+  "author": "Aadish",
+  "license": "ISC"
+}
